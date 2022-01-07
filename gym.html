@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+
+<style>
+    body,html{
+        font-family: 'Baloo Bhai',cursive;
+        height: 100%;
+        background: url('gym.jpeg');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        background-size: cover;
+    }
+    /* .left img{
+        filter: invert(100%);
+        
+    }     */
+
+    .left{
+        /* border:2px solid blue; */
+        color: rgba(255, 255, 255, 0.808);
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 25px;
+        font-size: 17px;
+    }
+
+    .mid{
+        margin: 11px auto;
+        width: 50%;
+        display: block;
+    }
+
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 29px;
+        top: 22px;
+    }
+
+    .navbar{
+        /* border:2px solid red; */
+        display: inline-block;
+    }
+
+    .navbar li{
+        /* color: white; */
+        display: inline-block;
+        font-size: 17px;
+
+    }
+    
+    .navbar li a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.808);
+        padding: 13px 13px;
+    }
+
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: rgb(136, 129, 129);
+    }
+
+    .btn{
+        display: inline-block;
+        /* border:2px solid yellow; */
+        background-color: black;
+        color: rgba(255, 255, 255, 0.808);
+        font-family: 'Baloo Bhai',cursive;
+        margin: 0px 2px;
+        padding: 4px 14px;
+        font-size: 17px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover{
+        background-color: rgb(90, 80, 80);
+    }
+    
+    .container{
+        border: 2px solid rgba(255, 255, 255, 0.808);
+        margin: 76px 37px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input{
+        font-family: 'Baloo Bhai',cursive;
+        text-align: center;
+        display: block;
+        width: 380px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .form-group-1 input{
+        font-family: 'Baloo Bhai',cursive;
+        text-align: center;
+        display: block;
+        width: 380px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .form-group-2 input{
+        font-family: 'Baloo Bhai',cursive;
+        text-align: center;
+        display: block;
+        width: 380px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .form-group-3 input{
+        font-family: 'Baloo Bhai',cursive;
+        text-align: center;
+        display: block;
+        width: 380px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .form-group-4 input{
+        font-family: 'Baloo Bhai',cursive;
+        text-align: center;
+        display: block;
+        width: 380px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.808);
+    }
+
+    .container button{
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+        <div></div>
+            <!-- <img src="logo.jpg" alt=""> -->
+            <div>Poorvang Fitness</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Poorvang Gym Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name=""placeholder="Enter Name">
+            </div>
+            <div class="form-grop-1">
+                <input type="text" name=""placeholder="Enter Age">
+            </div>
+            <div class="form-grop-2">
+                <input type="text" name="" placeholder="Enter Phone NO.">
+            </div>
+            <div class="form-grop-3">
+                <input type="text" name="" placeholder="Enter Email Id">
+            </div>
+            <div class="form-grop-4">
+                <input type="text" name="" placeholder="Enter Gender">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

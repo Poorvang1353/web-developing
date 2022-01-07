@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- our HTML code starts here    -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POORVANG</title>
+</head>
+
+<body>
+    <!-- for link addition -->
+    <a href="https://google.com" target="_blank">Go to Google</a>
+
+    <!-- for image addition -->
+    <img src="https://images.unsplash.com/photo-1640808238224-5520de93c939?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+        alt="">
+
+    <!-- for unordered list -->
+    <ul type="square">
+        <!-- another types = disc,circle -->
+        <li>This is the first item of unordered list</li>
+        <li>This is the second item of unordered list</li>
+        <li>This is the third item of unoredered list</li>
+    </ul>
+
+    <!-- for ordered list -->
+    <ol type="1">
+        <!-- anotehr types = a,A,i,I-->
+        <li>This is the first item of unordered list</li>
+        <li>This is the second item of unordered list</li>
+        <li>This is the third item of unoredered list</li>
+    </ol>
+
+    <!-- table -->
+    <h3>HTML TABLE</h3>
+    <table>
+        <thead>
+            <!-- FOR TABLE HEADING-->
+            <tr>
+                <th>NAME</th>
+                <th>ROLL. NO.</th>
+                <th>SEMISTER</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- for table body-->
+            <tr>
+                <td>Pooravng</td>
+                <td>38</td>
+                <td>4th</td>
+            </tr>
+            <tr>
+                <td>Aryan</td>
+                <td>27</td>
+                <td>3rd</td>
+            </tr>
+            <tr>
+                <td>Prajesh</td>
+                <td>45</td>
+                <td>7th</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+
+
+
+
+    <!-- form type -->
+    <h2>This is HTML form</h2>
+    <form action="backend.python">
+        <div>
+            <label for="name"> Name</label>
+            : <input type="text" name="myName" id="name">
+        </div>
+        <br>
+
+        <div>
+            <label for="Role">Role</label>
+            : <input type="text" name="myRole" id="Role">
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+
+        <div>
+            <label for="dob">Date of Birth: </label>
+            <input type="date" name="myDate" id="dob">
+        </div>
+        <br>
+
+        <div>
+            <label for="sem">Semister: </label>
+            <input type="number" name="mySemister" id="sem">
+        </div>
+        <br>
+
+        <div>
+            <label for="handicap">Are you Handicap: </label>
+            <input type="checkbox" checked name="Handicap" id="handicap" >
+        </div>
+        <br>
+
+        <div>
+            <label for="gender">Gender: </label>
+            <label for="male">Male</label> <input type="radio" name="myGender" id="male"> <label
+                for="female">Female</label><input type="radio" name="myGender" id="female"> <label
+                for="other">Other</label><input type="radio" name="myGender" id="other">
+        </div>
+        <br>
+
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="alto">Alto 800</option>
+                <option value="sft" selected >Swift </option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit now">
+        </div>
+
+        <div>
+            <input type="reset" value="Reset all">
+        </div>
+    </form>
+
+    <!-- Emmet -->
+    <!-- "." for class and "#" for Ids -->
+    <!-- Emmet takes div tag as default -->
+    <div class="redbg"></div>    <!-- for this class press .redbg and enter -->
+    <span id="myId"></span>       <!-- for this Ids press span#myId and enter -->
+
+    <!-- Creating multiple elements using a Emmet -->
+    <!-- span.class1.class2.class3 -->
+    <span class="class1 class2 class3"></span>
+
+    <!-- HTML Entities -->
+    <p>This is &nbsp; &nbsp; paragraph with two spaces </p>
+    <p>paragraph is written like this &lt;p&gt;</p>
+    <p>Pound is writtne like this &pound;</p>
+    <p>CopyRight is written like this &copy;</p>
+    <p>Empty character is written like this &#8203;</p>
+</body>
+
+</html>
